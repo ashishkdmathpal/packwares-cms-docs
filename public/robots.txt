@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://docs.packwares.com/sitemap.xml
+Sitemap: https://packwares.com/sitemap.xml

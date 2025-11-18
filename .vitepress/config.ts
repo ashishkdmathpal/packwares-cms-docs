@@ -14,9 +14,9 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#7C3AED' }],
     ['meta', { name: 'og:type', content: 'website' }],
     ['meta', { name: 'og:site_name', content: 'PackWares' }],
-    ['meta', { name: 'og:image', content: 'https://www.packwares.com/og-image.png' }],
+    ['meta', { name: 'og:image', content: 'https://docs.packwares.com/og-image.png' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:image', content: 'https://www.packwares.com/og-image.png' }],
+    ['meta', { name: 'twitter:image', content: 'https://docs.packwares.com/og-image.png' }],
 
     // Google Fonts
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
@@ -26,7 +26,7 @@ export default defineConfig({
 
   // Sitemap generation
   sitemap: {
-    hostname: 'https://www.packwares.com'
+    hostname: 'https://docs.packwares.com'
   },
 
   // Theme configuration

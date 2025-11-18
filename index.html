@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PackWares CMS Documentation</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Comprehensive documentation and tutorials for PackWares CMS - Customer Management, Deals, Quotations, Costing, and Settings">
+  <meta name="keywords" content="PackWares, CMS, Documentation, Tutorials, Customer Management, Quotations, Costing">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+  <!-- Theme -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+
+  <style>
+    :root {
+      --base-font-size: 16px;
+      --theme-color: #0066cc;
+      --theme-color-dark: #004d99;
+    }
+
+    .sidebar {
+      border-right: 1px solid #eee;
+    }
+
+    .sidebar-nav li {
+      margin: 6px 0;
+    }
+
+    .app-name {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--theme-color);
+      padding: 20px 0;
+    }
+
+    .markdown-section {
+      max-width: 900px;
+    }
+
+    .markdown-section img {
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 5px;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">Loading...</div>
+
+  <script>
+    window.$docsify = {
+      name: 'PackWares CMS Docs',
+      repo: 'ashishkdmathpal/packwares-cms-docs',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      auto2top: true,
+
+      // Search plugin
+      search: {
+        maxAge: 86400000, // 1 day
+        paths: 'auto',
+        placeholder: 'Search documentation...',
+        noData: 'No results found',
+        depth: 3,
+        hideOtherSidebarContent: false
+      },
+
+      // Pagination
+      pagination: {
+        previousText: 'Previous',
+        nextText: 'Next',
+        crossChapter: true,
+        crossChapterText: true,
+      },
+
+      // Copy code
+      copyCode: {
+        buttonText: 'Copy',
+        errorText: 'Error',
+        successText: 'Copied'
+      },
+
+      // SEO
+      seo: {
+        title: 'PackWares CMS Documentation',
+        author: 'PackWares',
+        image: 'https://packwares.com/logo.png',
+        updated_time: new Date().toISOString(),
+      }
+    }
+  </script>
+
+  <!-- Docsify core -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+  <!-- Search plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+
+  <!-- Copy code plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+
+  <!-- Pagination plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+
+  <!-- Zoom image -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+
+  <!-- External link script -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/external-script.min.js"></script>
+</body>
+</html>

@@ -23,14 +23,18 @@
        ======================================== */
 
     :root {
-      /* Primary Colors - Match PackWares CMS */
-      --primary-blue: #1a73e8;
-      --primary-blue-dark: #00639b;
-      --dark-text: #202124;
+      /* Primary Colors - Match PackWares CMS Purple Theme */
+      --primary-purple: #7C3AED;
+      --primary-purple-dark: #6D28D9;
+      --primary-purple-light: #8B5CF6;
+      --accent-blue: #3B82F6;
+      --dark-text: #1E293B;
+      --medium-text: #475569;
+      --light-text: #64748B;
       --light-bg: #ffffff;
-      --border-gray: #dadce0;
-      --light-gray-bg: #e8eaed;
-      --sidebar-bg: #f8f9fa;
+      --border-gray: #E2E8F0;
+      --light-gray-bg: #F8FAFC;
+      --sidebar-bg: #FAFAFA;
 
       /* Typography */
       --base-font-family: 'Roboto', Arial, sans-serif;
@@ -77,8 +81,8 @@
     .app-name {
       font-family: var(--heading-font-family);
       font-size: 1.5rem;
-      font-weight: 500;
-      color: var(--primary-blue);
+      font-weight: 600;
+      color: var(--primary-purple);
       letter-spacing: -0.5px;
       margin: 0;
     }
@@ -113,17 +117,17 @@
     }
 
     .sidebar-nav > ul > li > p {
-      font-weight: 500;
-      font-size: 13px;
+      font-weight: 600;
+      font-size: 12px;
       text-transform: uppercase;
-      letter-spacing: 0.5px;
-      color: #5f6368;
+      letter-spacing: 0.8px;
+      color: var(--primary-purple);
       margin: 16px 16px 8px 16px;
       padding: 0;
     }
 
     .sidebar-nav a {
-      color: var(--dark-text);
+      color: var(--medium-text);
       font-size: 14px;
       font-weight: 400;
       text-decoration: none;
@@ -131,19 +135,21 @@
       padding: 8px 20px;
       border-left: 3px solid transparent;
       transition: all 0.2s ease;
+      border-radius: 6px;
+      margin: 2px 8px;
     }
 
     .sidebar-nav a:hover {
-      color: var(--primary-blue);
-      background-color: rgba(26, 115, 232, 0.08);
-      border-left-color: var(--primary-blue);
+      color: var(--primary-purple);
+      background-color: rgba(124, 58, 237, 0.08);
+      border-left-color: var(--primary-purple);
     }
 
     .sidebar-nav li.active > a {
-      color: var(--primary-blue);
+      color: var(--primary-purple);
       font-weight: 500;
-      background-color: rgba(26, 115, 232, 0.12);
-      border-left-color: var(--primary-blue);
+      background-color: rgba(124, 58, 237, 0.12);
+      border-left-color: var(--primary-purple);
     }
 
     /* Nested Navigation */
@@ -179,18 +185,18 @@
     }
 
     .search input:focus {
-      border-color: var(--primary-blue);
-      box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.1);
+      border-color: var(--primary-purple);
+      box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.1);
     }
 
     .search input::placeholder {
-      color: #5f6368;
+      color: var(--light-text);
     }
 
     .search .results-panel {
       border: 1px solid var(--border-gray);
       border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     }
 
     .matching-post {
@@ -198,7 +204,7 @@
     }
 
     .search .matching-post:hover {
-      background-color: rgba(26, 115, 232, 0.08);
+      background-color: rgba(124, 58, 237, 0.08);
     }
 
     /* ========================================
@@ -255,14 +261,14 @@
 
     /* Links */
     .markdown-section a {
-      color: var(--primary-blue);
+      color: var(--primary-purple);
       text-decoration: none;
       font-weight: 500;
       transition: color 0.2s ease;
     }
 
     .markdown-section a:hover {
-      color: var(--primary-blue-dark);
+      color: var(--primary-purple-dark);
       text-decoration: underline;
     }
 
@@ -307,12 +313,12 @@
 
     /* Blockquotes */
     .markdown-section blockquote {
-      border-left: 4px solid var(--primary-blue);
-      background-color: rgba(26, 115, 232, 0.05);
+      border-left: 4px solid var(--primary-purple);
+      background-color: rgba(124, 58, 237, 0.05);
       padding: 16px 20px;
       margin: 20px 0;
       border-radius: 0 4px 4px 0;
-      color: #3c4043;
+      color: var(--dark-text);
     }
 
     /* Tables */
@@ -344,7 +350,7 @@
     }
 
     .markdown-section tr:hover {
-      background-color: rgba(26, 115, 232, 0.04);
+      background-color: rgba(124, 58, 237, 0.04);
     }
 
     /* Lists */
@@ -367,18 +373,18 @@
     }
 
     .pagination-item a {
-      color: var(--primary-blue);
+      color: var(--primary-purple);
       text-decoration: none;
       font-weight: 500;
       transition: all 0.2s ease;
       padding: 8px 16px;
-      border-radius: 4px;
+      border-radius: 6px;
       display: inline-block;
     }
 
     .pagination-item a:hover {
-      background-color: rgba(26, 115, 232, 0.08);
-      color: var(--primary-blue-dark);
+      background-color: rgba(124, 58, 237, 0.08);
+      color: var(--primary-purple-dark);
     }
 
     /* ========================================
@@ -386,7 +392,7 @@
        ======================================== */
 
     section.cover {
-      background: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-blue-dark) 100%);
+      background: linear-gradient(135deg, var(--primary-purple) 0%, var(--primary-purple-dark) 100%);
     }
 
     section.cover h1 {

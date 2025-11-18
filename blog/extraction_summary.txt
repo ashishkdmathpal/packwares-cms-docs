@@ -1,0 +1,62 @@
+EXTRACTION SUMMARY
+================================================================================
+
+Total articles extracted: 18
+Successfully created: 18
+
+List of all articles:
+--------------------------------------------------------------------------------
+ 1. ✅ How to Build Strong Customer Relationships in Packaging
+    File: building-customer-relationships-packaging-industry.md
+
+ 2. ✅ Essential Guide to Corrugated Box Costing and Pricing
+    File: essential-guide-corrugated-box-costing.md
+
+ 3. ✅ Managing Leads and Deals in the Packaging Industry
+    File: managing-leads-deals-packaging-industry.md
+
+ 4. ✅ Understanding Paper Costs and Maintaining Healthy Profit Margins
+    File: understanding-paper-costs-profit-margins.md
+
+ 5. ✅ Understanding Box Strength and Compression Testing
+    File: calculating-box-strength-compression.md
+
+ 6. ✅ Efficient Inventory Management for Packaging Supplies
+    File: inventory-management-packaging-supplies.md
+
+ 7. ✅ Production Planning and Scheduling for Box Manufacturers
+    File: production-planning-corrugated-manufacturing.md
+
+ 8. ✅ Effective Team Management in Packaging Manufacturing
+    File: team-management-packaging-business.md
+
+ 9. ✅ Essential Business Metrics and KPIs for Box Manufacturers
+    File: business-metrics-kpis-packaging-industry.md
+
+10. ✅ Digital Transformation for Small Packaging Businesses
+    File: digital-transformation-packaging-business.md
+
+11. ✅ How to Calculate Corrugated Box Costs Like a Pro
+    File: calculate-corrugated-box-costs-like-pro.md
+
+12. ✅ The Complete Guide to RFQ Management for Packaging
+    File: complete-guide-rfq-management-packaging.md
+
+13. ✅ Sourcing Team
+    File: packaging-supplier-evaluation-guide.md
+
+14. ✅ Paper Grades Explained: What Sourcing Teams Need to Know
+    File: paper-grades-explained-sourcing-teams.md
+
+15. ✅ Supply Chain Optimization for Packaging Manufacturers
+    File: supply-chain-optimization-packaging-manufacturers.md
+
+16. ✅ Quality Control Systems for Corrugated Box Manufacturing
+    File: quality-control-systems-corrugated-manufacturing.md
+
+17. ✅ Pricing Strategies for Custom Packaging: Winning Deals Profitably
+    File: pricing-strategies-corrugated-packaging-winning-deals.md
+
+18. ✅ Building a Sales Pipeline for Corrugated Box Manufacturing
+    File: building-sales-pipeline-corrugated-box-business.md
+

@@ -1,0 +1,24 @@
+{
+  "name": "packwares-cms-docs",
+  "version": "1.0.0",
+  "description": "PackWares CMS - Marketing, Documentation, and Blog",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "keywords": [
+    "packwares",
+    "cms",
+    "documentation",
+    "corrugated-box",
+    "box-costing"
+  ],
+  "author": "PackWares",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.24"
+  }
+}

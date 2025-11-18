@@ -1,0 +1,153 @@
+COMPLETE LIST OF EXTRACTED KNOWLEDGE BASE ARTICLES
+=================================================
+
+Total Articles: 25
+Output Directory: /Users/ashishkdmathpal/Documents/Projects/PackWares-CMS-Docs/blog/posts/
+
+FULL CONTENT ARTICLES (18):
+---------------------------
+1. ✅ building-customer-relationships-packaging-industry.md
+   - Title: How to Build Strong Customer Relationships in Packaging
+   - Category: Customer Relationship Management
+   - Reading Time: 10 min
+
+2. ✅ essential-guide-corrugated-box-costing.md
+   - Title: Essential Guide to Corrugated Box Costing and Pricing
+   - Category: Box Costing
+   - Reading Time: 12 min
+
+3. ✅ managing-leads-deals-packaging-industry.md
+   - Title: Managing Leads and Deals in the Packaging Industry
+   - Category: Customer Relationship Management
+   - Reading Time: 11 min
+
+4. ✅ understanding-paper-costs-profit-margins.md
+   - Title: Understanding Paper Costs and Maintaining Healthy Profit Margins
+   - Category: Box Costing
+   - Reading Time: 13 min
+
+5. ✅ calculating-box-strength-compression.md
+   - Title: Understanding Box Strength and Compression Testing
+   - Category: Box Strength
+   - Reading Time: 8 min
+
+6. ✅ inventory-management-packaging-supplies.md
+   - Title: Efficient Inventory Management for Packaging Supplies
+   - Category: Inventory Management
+   - Reading Time: 9 min
+
+7. ✅ production-planning-corrugated-manufacturing.md
+   - Title: Production Planning and Scheduling for Box Manufacturers
+   - Category: Production Optimization
+   - Reading Time: 10 min
+
+8. ✅ team-management-packaging-business.md
+   - Title: Effective Team Management in Packaging Manufacturing
+   - Category: Team Management
+   - Reading Time: 9 min
+
+9. ✅ business-metrics-kpis-packaging-industry.md
+   - Title: Essential Business Metrics and KPIs for Box Manufacturers
+   - Category: Business Management
+   - Reading Time: 10 min
+
+10. ✅ digital-transformation-packaging-business.md
+    - Title: Digital Transformation for Small Packaging Businesses
+    - Category: Technology
+    - Reading Time: 9 min
+
+11. ✅ calculate-corrugated-box-costs-like-pro.md
+    - Title: How to Calculate Corrugated Box Costs Like a Pro
+    - Category: Box Costing
+    - Reading Time: 12 min
+
+12. ✅ complete-guide-rfq-management-packaging.md
+    - Title: The Complete Guide to RFQ Management for Packaging
+    - Category: Business Management
+    - Reading Time: 15 min
+
+13. ✅ packaging-supplier-evaluation-guide.md
+    - Title: Sourcing Team's Guide to Packaging Supplier Evaluation
+    - Category: Business Management
+    - Reading Time: 14 min
+
+14. ✅ paper-grades-explained-sourcing-teams.md
+    - Title: Paper Grades Explained: What Sourcing Teams Need to Know
+    - Category: Box Costing
+    - Reading Time: 13 min
+
+15. ✅ supply-chain-optimization-packaging-manufacturers.md
+    - Title: Supply Chain Optimization for Packaging Manufacturers
+    - Category: Sales & Marketing
+    - Reading Time: 10 min
+
+16. ✅ quality-control-systems-corrugated-manufacturing.md
+    - Title: Quality Control Systems for Corrugated Box Manufacturing
+    - Category: Production Optimization
+    - Reading Time: 11 min
+
+17. ✅ pricing-strategies-corrugated-packaging-winning-deals.md
+    - Title: Pricing Strategies for Custom Packaging: Winning Deals Profitably
+    - Category: Customer Relationship Management
+    - Reading Time: 12 min
+
+18. ✅ building-sales-pipeline-corrugated-box-business.md
+    - Title: Building a Sales Pipeline for Corrugated Box Manufacturing
+    - Category: Customer Relationship Management
+    - Reading Time: 14 min
+
+PLACEHOLDER ARTICLES (7) - Need Content Extraction:
+---------------------------------------------------
+19. ⚠️  sustainable-packaging-solutions-corrugated-manufacturing.md
+    - Title: Sustainable Packaging Solutions: The Future of Corrugated Box Manufacturing
+    - Category: Business Management
+    - Reading Time: 12 min
+    - Note: Placeholder created, needs full content extraction
+
+20. ⚠️  food-safe-corrugated-packaging-guide.md
+    - Title: Complete Guide to Food-Safe Corrugated Packaging
+    - Category: Box Strength
+    - Reading Time: 10 min
+    - Note: Placeholder created, needs full content extraction
+
+21. ⚠️  ecommerce-packaging-optimization-guide.md
+    - Title: E-Commerce Packaging: Reducing Costs and Improving Customer Experience
+    - Category: Team Management
+    - Reading Time: 14 min
+    - Note: Placeholder created, needs full content extraction
+
+22. ⚠️  corrugated-vs-cardboard-complete-comparison.md
+    - Title: Corrugated vs Cardboard: Understanding the Difference and Choosing Right
+    - Category: Box Strength
+    - Reading Time: 11 min
+    - Note: Placeholder created, needs full content extraction
+
+23. ⚠️  corrugated-box-manufacturing-automation-guide.md
+    - Title: Automation in Corrugated Box Manufacturing: A Practical Guide
+    - Category: Box Costing
+    - Reading Time: 13 min
+    - Note: Placeholder created, needs full content extraction
+
+24. ⚠️  custom-printed-corrugated-boxes-branding-roi.md
+    - Title: Custom Printed Corrugated Boxes: Design, Branding, and ROI
+    - Category: Inventory Management
+    - Reading Time: 13 min
+    - Note: Placeholder created, needs full content extraction
+
+25. ⚠️  what-is-cms-guide-for-packaging-sourcing-professionals.md
+    - Title: What is CMS? A Guide for Packaging Sourcing Professionals
+    - Category: Business Management
+    - Reading Time: 8 min
+    - Note: Placeholder created, needs full content extraction
+
+SUMMARY:
+--------
+✅ Full Content: 18 articles (72%)
+⚠️  Placeholders: 7 articles (28%)
+📊 Total: 25 articles (100%)
+
+The 7 placeholder articles need their full content extracted from:
+/Users/ashishkdmathpal/Documents/Projects/PackWares-CMS-Docs/seed-kb-articles.js
+(Lines 2058-6523 contain the missing articles)
+
+All files are properly formatted with frontmatter and ready for integration.

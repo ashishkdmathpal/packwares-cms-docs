@@ -94,7 +94,7 @@
 
     /* Sidebar Navigation */
     .sidebar-nav {
-      padding: 16px 0;
+      padding: 8px 0;
     }
 
     .sidebar-nav ul {
@@ -105,51 +105,59 @@
     .sidebar-nav li {
       list-style: none;
       margin: 0;
-      line-height: 1.4;
+      line-height: 1.5;
     }
 
     .sidebar-nav > ul > li {
-      margin: 12px 0 0 0;
+      margin: 0;
     }
 
     .sidebar-nav > ul > li:first-child {
       margin-top: 0;
     }
 
+    /* Category Headers (e.g., "CORE FEATURES") */
     .sidebar-nav > ul > li > p {
-      font-weight: 600;
-      font-size: 12px;
+      font-weight: 700;
+      font-size: 11px;
       text-transform: uppercase;
-      letter-spacing: 0.8px;
+      letter-spacing: 1px;
       color: var(--primary-purple);
-      margin: 16px 16px 8px 16px;
+      margin: 20px 12px 8px 12px;
       padding: 0;
     }
 
+    /* First category header shouldn't have top margin */
+    .sidebar-nav > ul > li:first-child > p {
+      margin-top: 12px;
+    }
+
+    /* Navigation Links */
     .sidebar-nav a {
-      color: var(--medium-text);
+      color: var(--dark-text);
       font-size: 14px;
       font-weight: 400;
       text-decoration: none;
       display: block;
-      padding: 8px 20px;
-      border-left: 3px solid transparent;
-      transition: all 0.2s ease;
-      border-radius: 6px;
-      margin: 2px 8px;
+      padding: 10px 12px;
+      border-left: 0;
+      transition: all 0.15s ease;
+      border-radius: 0;
+      margin: 0;
     }
 
     .sidebar-nav a:hover {
       color: var(--primary-purple);
-      background-color: rgba(124, 58, 237, 0.08);
-      border-left-color: var(--primary-purple);
+      background-color: rgba(124, 58, 237, 0.06);
+      padding-left: 16px;
     }
 
     .sidebar-nav li.active > a {
       color: var(--primary-purple);
       font-weight: 500;
-      background-color: rgba(124, 58, 237, 0.12);
-      border-left-color: var(--primary-purple);
+      background-color: rgba(124, 58, 237, 0.1);
+      border-left: 3px solid var(--primary-purple);
+      padding-left: 13px;
     }
 
     /* Nested Navigation */
@@ -167,17 +175,17 @@
        ======================================== */
 
     .search {
-      padding: 16px 16px 0 16px;
-      margin-bottom: 0;
+      padding: 12px;
+      margin-bottom: 12px;
       border-bottom: 1px solid var(--border-gray);
     }
 
     .search input {
       width: 100%;
-      padding: 10px 16px;
-      font-size: 14px;
+      padding: 10px 14px;
+      font-size: 13px;
       border: 1px solid var(--border-gray);
-      border-radius: 24px;
+      border-radius: 6px;
       outline: none;
       background-color: var(--light-bg);
       font-family: var(--base-font-family);
@@ -186,11 +194,12 @@
 
     .search input:focus {
       border-color: var(--primary-purple);
-      box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.1);
+      box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.08);
     }
 
     .search input::placeholder {
       color: var(--light-text);
+      font-size: 13px;
     }
 
     .search .results-panel {
